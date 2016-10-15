@@ -4,6 +4,8 @@ set number
 vmap <C-x> :!pbcopy<CR>
 vmap <C-c> :w !pbcopy<CR><CR>
 
+:nnoremap <C-b> <C-w>
+
 set expandtab  
 set tabstop=4  
 set shiftwidth=4  
